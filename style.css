@@ -1,0 +1,31 @@
+
+#imagens {
+    margin-top:25px;
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    width:400px
+    
+}
+#conteudo {
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+}
+#borda {
+    display: flex;
+    flex-direction: column;
+    padding:0px 60px 60px 60px;
+    border:2px solid black
+}
+label {
+    display:inline-block;
+    margin-top:10px
+}
+button {
+    margin-left:15px;
+    margin-top:10px
+}
+input {
+    width:40px
+}
