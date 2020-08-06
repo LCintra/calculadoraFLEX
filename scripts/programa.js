@@ -2,11 +2,13 @@ var img = document.getElementById("imagens")
 function calcula() {
     var gas = Number(document.getElementById("gasolina").value)
     var eta = Number(document.getElementById("etanol").value)
-    if (70*eta/100 < gas){
+    if (eta <= 0.7*gas){
         img.src ="img/Etanol.png"
     }else {
         img.src ="img/Gasolina.png"
     }
+    console.log(eta)
+    console.log(gas)
 }
 function limpa() {
     var gas = Number(document.getElementById("gasolina"))

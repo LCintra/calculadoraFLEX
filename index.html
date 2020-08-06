@@ -11,7 +11,7 @@
         <div id="borda">
             <h1>Calculadora Flex - Básico JS</h1>
             <img src="img/Neutro.png" id="imagens">
-            <div>
+            <form>
                 <label>
                     Gasolina:   
                     <input type="number" id="gasolina">
@@ -20,9 +20,9 @@
                     Etanol:
                     <input type="number" id="etanol">
                 </label>
-                <button onclick="calcula()">Calcular</button>
-                <button onclick="limpa()">Limpar</button>
-            </div>
+                <input type="button" onclick="calcula()" value="Calcular">
+                <input type="reset" value="Resetar" onclick="limpa()">
+            </form>
         </div>
     </div>
     <script src="scripts/programa.js"></script>
